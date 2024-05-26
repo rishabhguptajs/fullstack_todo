@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "concurrently \"nodemon ./server/index.js\" \"npm run dev\"",
+        "dev": "npm run dev --prefix ./client"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './styles/NewTask.css';
 
 const NewTask = () => {
     const navigate = useNavigate();
@@ -36,7 +37,7 @@ const NewTask = () => {
     }
 
     return (
-        <div>
+        <div className='new-task-container'>
             <h1>New Task</h1>
             <form onSubmit={handleSubmit}>
                 <div>
