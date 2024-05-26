@@ -40,7 +40,7 @@ const NewTask = () => {
         <div className='new-task-container'>
             <h1>New Task</h1>
             <form onSubmit={handleSubmit}>
-                <div>
+                <main_div>
                     <label htmlFor="title">Title</label>
                     <input
                         type="text"
@@ -49,8 +49,8 @@ const NewTask = () => {
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                     />
-                </div>
-                <div>
+                </main_div>
+                <main_div>
                     <label htmlFor="description">Description</label>
                     <textarea
                         id="description"
@@ -58,8 +58,8 @@ const NewTask = () => {
                         value={description}
                         onChange={(e) => setDescription(e.target.value)}
                     ></textarea>
-                </div>
-                <div>
+                </main_div>
+                <main_div>
                     <label htmlFor="dueDate">Due Date</label>
                     <input
                         type="date"
@@ -68,7 +68,7 @@ const NewTask = () => {
                         value={dueDate}
                         onChange={(e) => setDueDate(e.target.value)}
                     />
-                </div>
+                </main_div>
                 <button type="submit">Create Task</button>
             </form>
         </div>

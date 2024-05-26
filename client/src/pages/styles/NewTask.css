@@ -7,3 +7,59 @@
     background-color: rgb(255, 150, 150);
     width: 95.7vw;
 }
+
+.new-task-container h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.new-task-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.new-task-container form main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-task-container form main_div label{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.new-task-container form main_div input{
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.new-task-container form button{
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(162, 68, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-task-container form button:hover{
+    background-color: rgb(162, 68, 255, 0.8);
+    box-shadow: 0 0 10px rgb(162, 68, 255);
+    transition-duration: 0.2s;
+    transform: translateY(-2px);
+}
